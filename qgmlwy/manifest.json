@@ -1,0 +1,22 @@
+{
+  "name": "qgmlwy",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "qgmlwy keyboard",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "qgmlwy",
+      "type": "ime",
+      "id": "qgmlwy",
+      "description": "qgmlwy keyboard",
+      "language": "en-US",
+      "layouts": ["us"]
+    }
+  ]
+}
